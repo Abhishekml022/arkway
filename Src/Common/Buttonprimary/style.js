@@ -1,0 +1,35 @@
+import {StyleSheet, Dimensions} from 'react-native';
+// const {height, width} = Dimensions.get('screen');
+const style = (height,width,customwidth)=>
+
+StyleSheet.create({
+  container: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    elevation: 5,
+    borderRadius:20,
+   width: customwidth ? {customwidth} :null,
+    backgroundColor: '#d3c1de',
+    marginVertical:height*.01,padding:.4,paddingRight:50
+  },
+  TextInput: {
+    height: width * 0.12,
+    width: customwidth? {customwidth}:width * 0.8,
+    borderRadius: 10,
+    opacity: 98,
+    fontSize: 18,
+    color: '#000',
+    backgroundColor: '#d3c1de',
+
+    margin:5
+  },
+  Image: {
+    height: height * 0.05,
+    width: width * 0.05,
+    resizeMode: 'contain',
+    backgroundColor: '#d3c1de',
+  },
+});
+
+export default style;

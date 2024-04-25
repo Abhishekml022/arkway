@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "331494966383",
+    "project_id": "arkway-1b588",
+    "storage_bucket": "arkway-1b588.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:331494966383:android:4f693182ba6db3bb71799a",
+        "android_client_info": {
+          "package_name": "com.arkway"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "331494966383-er210dicd7tttkucv21rmt9o2qo31j15.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arkway",
+            "certificate_hash": "e9f686e688bc276585dec8b6cb3831499c770334"
+          }
+        },
+        {
+          "client_id": "331494966383-h5nqk6hfk4vdmg9e2c4r7i1euorj6ubg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiEM0mXHYC5x8CawV29FhWgNgPFnJlBZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "331494966383-h5nqk6hfk4vdmg9e2c4r7i1euorj6ubg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
